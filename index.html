@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Descora List</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <div class="main">
+        <div class="post_main"> 
+            <div class="button-hover">
+                <div id="hvr"></div>
+                <button type="button" class="login-btn" onclick="loginlist()">  Login</button>
+                <button type="button" class="login-btn" onclick="datalist()">Data List</button>
+            </div>
+            <img src="descora.png" id = "descora">
+            <form id= "login" class="Details">
+                <!-- fill up area -->
+                <input type="text" class="detail" id = "Name" placeholder="Name*" required>
+                <input type="text" class="detail" id = "Organisation" placeholder="Organisation*" required>
+                <input type="text" class="detail"  id = "Trade/Intrest" placeholder="Trade/Intrest*" required>
+                <input type="email" class="detail" id = "e-mail" placeholder = "e-mail*"required>
+                <input type="text" class="detail" id = "Phone.no" placeholder="Phone.no*"required>
+
+                <!-- buttons use in bottom for save and clear -->
+                <button type="submit" id="add" class="save-btn" onclick="addCourse()">Save</button>
+            </form>
+           
+                <div id ="DataList" style="display: none;">
+                 <table id="enrolled">
+                    <tr id="titleRow">
+                        <th class="list">Name</th>
+                        <th class="list">Organisation</th>
+                        <th class="list">Trade/Intres</th>
+                        <th class="list">e-mail</th>
+                        <th class="list">Phone.no</th>
+                    </tr>
+                </table> 
+                <button type="button" class="save-btn" id="clear" onclick="Clear()">Clear</button>
+            <button type="button" class="save-btn" id="print" onclick="Print()">Print</button>
+            </div>
+       </div> 
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>    
+</html>

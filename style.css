@@ -1,0 +1,165 @@
+@import"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap";
+body{
+background-color: thistle;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+.main{
+    /* background: transparent; */
+    background-color:thistle;
+    width: 100%;
+    height: 100%;
+    position: absolut;
+}   
+.post_main{
+    background-color:thistle;
+    width: 800px;
+    height: 1000px;
+    /* margin-left: 10cm;
+    margin-top: 0; */
+    position: relative;
+    align-self: center;
+   overflow: visible; 
+   margin-left: 20%;
+
+ }
+
+ /* login/datalist */
+.button-hover{
+    width: 240px;
+    margin: 0px auto;
+    position: relative;
+    /* box-shadow: 0 0 5px 1px #ffabf4; */
+    border-radius: 30px;
+    border: 200px;
+   
+}
+.login-btn{
+    padding: 10px 32px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;  
+    margin-top: 0.9cm; 
+    margin-bottom: 0cm; 
+}
+
+#hvr{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    background-image: linear-gradient(to right, #895cf2 50%, rgb(240, 240, 240) 100%, #895cf2 100%);
+    border-radius: 30px;
+    transition: 0.5s;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0.9cm;
+    margin-bottom: 0cm;
+    height: 50%
+}
+
+.Details {
+    top:200px;
+    width: 280px;
+    position: absolute;
+    /* background: transparent; */
+    transition: 1s;
+    margin-left: 260px;
+    /* background-color: olive; */
+}
+.detail{
+    margin-left: 0px ;
+    width: 100%;
+    padding: 10px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    outline: none;
+    background: transparent;
+    /* color: black; */
+}
+.save-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-left: 30px;
+    margin-top: 30px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    background-image: linear-gradient(to right, #895cf2 0%, #ffabf4 100%, #895cf2 100%);
+    outline: none;
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.save-btn:hover{
+    transition: 2s;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, #895cf2 100%, #ffabf4 100%, #895cf2 0%);
+        
+ } 
+/* from here to 125 its all about */
+th{
+    display: table-cell;
+    text-align:center;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding-right: 50px;
+    border-top: 1px solid;
+}
+table{
+    border-collapse: collapse;
+
+
+}
+tr{
+    border-left: 1px solid;
+    border-right: 1px solid;
+
+    border-bottom: 1px solid;
+}
+td{
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+/* End Here */
+
+
+
+/* clear button */
+#clear{
+    width: 6cm;
+    margin-left: 6cm;
+    margin-top: 0.cm;
+}
+
+#DataList{
+    margin-top: 2cm;
+    margin-left: 1.5cm;
+}
+#enrolled{
+    left: 5cm;
+}
+
+input:placeholder-shown{
+    border-bottom: 2px solid #895cf2;
+}
+
+#descora{
+    margin-top: 40px;
+    margin-left: 300px;
+
+}
